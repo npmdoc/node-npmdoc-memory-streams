@@ -1,4 +1,7 @@
-# api documentation for  [memory-streams (v0.1.2)](https://github.com/paulja/memory-streams-js)  [![npm package](https://img.shields.io/npm/v/npmdoc-memory-streams.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-memory-streams) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-memory-streams.svg)](https://travis-ci.org/npmdoc/node-npmdoc-memory-streams)
+# npmdoc-memory-streams
+
+#### basic api documentation for  [memory-streams (v0.1.2)](https://github.com/paulja/memory-streams-js)  [![npm package](https://img.shields.io/npm/v/npmdoc-memory-streams.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-memory-streams) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-memory-streams.svg)](https://travis-ci.org/npmdoc/node-npmdoc-memory-streams)
+
 #### Simple implmentation of Stream.Readable and Stream.Writable holding the data in memory.
 
 [![NPM](https://nodei.co/npm/memory-streams.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/memory-streams)
@@ -65,7 +68,8 @@
         "test": "node ./test/test-readablestream.js && node ./test/test-writablestream.js"
     },
     "typings": "index.d.ts",
-    "version": "0.1.2"
+    "version": "0.1.2",
+    "bin": {}
 }
 ```
 
